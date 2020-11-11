@@ -1,0 +1,505 @@
+    * {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .container-100 {
+        width: 100%;
+    }
+    
+    .container-70 {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /*button*/
+    
+    button {
+        padding: 10px 30px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        margin-right: 20px;
+    }
+    
+    .blue-btn {
+        background-color: transparent;
+        color: #3498db;
+        border: 2px solid #3498db;
+        cursor: pointer;
+    }
+    
+    .blue-btn:hover {
+        color: #ffffff;
+        background-color: #3498db;
+    }
+    
+    .download-btn {
+        background-color: #21bf73;
+        color: #ffffff;
+        border: 2px solid#21bf73;
+        cursor: pointer;
+    }
+    /* header start */
+    
+    #logo {
+        width: 40%;
+    }
+    
+    #logo h1 a {
+        color: #45454b;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    #navbar {
+        width: 45%;
+    }
+    
+    #navbar ul {
+        list-style: none;
+    }
+    
+    #navbar ul li {
+        display: inline-block;
+        padding: 10px 15px;
+    }
+    
+    #navbar ul li a {
+        color: #6a6a6a;
+        font-size: 14px;
+    }
+    
+    #navbar ul li a:hover {
+        opacity: 0.8;
+    }
+    
+    #menu-btn {
+        width: 15%;
+    }
+    
+    #menu-btn div {
+        padding: 8px 20px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        color: #45454b;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+    
+    #menu-btn div:hover {
+        background-color: #21bf73;
+        color: #ffffff;
+        border: none;
+        outline: none;
+    }
+    /* header end */
+    /* Product Section Start */
+    
+    .pr-top {
+        padding: 50px 0;
+    }
+    
+    .pr-top p {
+        color: #474545;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .pr-top h2 {
+        color: #423d3d;
+        font-size: 35px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .btn-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .pr-top span {
+        display: block;
+        width: 55%;
+        color: #9e9d9d;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+    
+    .pr-bottom {
+        width: 100%;
+        padding: 80px 0 100px 0;
+    }
+    
+    .pr-bottom h3 {
+        color: #21bf73;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .pr-bottom h2 {
+        width: 40%;
+        font-size: 38px;
+        margin: 5px 0;
+    }
+    
+    .pr-bottom p {
+        color: #999999;
+        width: 41%;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .items {
+        height: 300px;
+        border-right: 20px solid #ffffff;
+        background-color: #fff2e5;
+        padding-left: 40px;
+    }
+    
+    .items h3 {
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        color: #423d3d;
+    }
+    
+    .items p {
+        width: 85%;
+        font-weight: 300;
+    }
+    /* Product Section End */
+    /* Features section start */
+    
+    .features {
+        padding: 80px 80px 0px 80px;
+    }
+    
+    .features h2 {
+        font-size: 32px;
+    }
+    
+    .features p {
+        width: 90%;
+        color: #82868a;
+        font-size: 20px;
+    }
+    
+    .features li {
+        height: 40px;
+    }
+    
+    .features span {
+        display: inline-block;
+        width: 70%;
+        font-size: 18px;
+        color: #6a7076;
+        margin-left: 15px;
+    }
+    
+    .feat-bottom {
+        padding-bottom: 80px;
+    }
+    
+    .result {
+        margin: auto;
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .result h4 {
+        font-size: 14px;
+        color: #3498db;
+        letter-spacing: 2px;
+    }
+    
+    .result>p {
+        width: 60%;
+        font-size: 36px;
+        font-weight: 900;
+        margin: 0 auto 80px auto;
+    }
+    
+    .result-items {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+    
+    .result-items h4 {
+        font-size: 26px;
+        padding: 5px;
+        color: #45454b;
+        margin-top: 5px;
+    }
+    
+    .result-items p {
+        font-size: 17px;
+        color: #82868a;
+        margin-top: -25px;
+    }
+    /* Features section end */
+    /* Reviews section start */
+    
+    .reviews {
+        padding: 50px;
+    }
+    
+    .reviews-left {
+        width: 45%;
+    }
+    
+    .reviews-left h4 {
+        width: 80%;
+        font-size: 36px;
+        color: #423d3d;
+    }
+    
+    .reviews-left p {
+        width: 82%;
+        font-size: 18px;
+        color: #82868a;
+    }
+    
+    .rev-right-top span {
+        width: 100%;
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 18px;
+        color: #6a6a6a;
+        letter-spacing: 1px;
+        margin-left: 10px;
+    }
+    
+    #cont-p {
+        width: 100%;
+        font-size: 18px;
+        color: #6a6a6a;
+        letter-spacing: 1px;
+        text-align: justify;
+        margin-top: 0;
+        line-height: 1.4;
+    }
+    
+    .rev-right-bottom {
+        margin-top: 50px;
+    }
+    
+    .rev-right-bottom img {
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .rev-right-bottom span {
+        color: #161851;
+        font-size: 17px;
+        font-weight: 900;
+        margin-top: 15px;
+    }
+    
+    .rev-right-bottom p {
+        color: #6a6a6a;
+    }
+    
+    #pric-cap {
+        font-size: 12px;
+        text-align: center;
+        color: #82868a;
+        letter-spacing: 0.5px;
+    }
+    /* Reviews section end */
+    /* Pricing section start */
+    
+    .pricing {
+        text-align: center;
+        padding: 50px 0 50px 0;
+    }
+    
+    .pricing h3 {
+        font-size: 34px;
+    }
+    
+    .pricing p {
+        width: 58%;
+        font-size: 18px;
+        color: #82868a;
+        margin: auto;
+        line-height: 1.7;
+        letter-spacing: 1px;
+    }
+    
+    .pricing-items {
+        width: 33%;
+        text-align: center;
+    }
+    
+    .pric-left {
+        border-width: 0 0 0 170px;
+        border-style: solid;
+        border-color: #ffffff;
+    }
+    
+    .pric-right {
+        border-width: 0 170px 0 50px;
+        border-style: solid;
+        border-color: #ffffff;
+    }
+    
+    .pricing-items h3 {
+        font-size: 26px;
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+    
+    .pricing-items p {
+        font-size: 16px;
+        color: #999999;
+    }
+    
+    .pricing-items span {
+        display: block;
+        font-size: 38px;
+        margin-top: 30px;
+    }
+    
+    .pricing-items div {
+        font-size: 16px;
+        color: #82868a;
+        margin: 10px 0;
+    }
+    
+    .pricing-items .download-btn {
+        margin: 15px;
+    }
+    /* Pricing section end */
+    /* FAQ section start */
+    
+    #FAQ {
+        margin-top: 100px;
+        padding: 50px 100px;
+        box-sizing: border-box;
+    }
+    
+    #FAQ h2 {
+        font-size: 36px;
+    }
+    
+    #FAQ p {
+        font-size: 18px;
+        color: #82868a;
+        width: 75%;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+    }
+    
+    #FAQ h3 {
+        font-size: 17px;
+        color: #82868a;
+        font-weight: 300;
+    }
+    
+    #FAQ h3 a {
+        color: #677aed;
+    }
+    
+    #FAQ h5 {
+        padding: 15px 40px;
+        margin-right: 50px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #6a6a6a;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    /* FAQ section end */
+    /* Download section start */
+    
+    #Download {
+        margin-top: 80px;
+    }
+    
+    #Download h4 {
+        color: #21bf73;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #Download h2 {
+        width: 45%;
+        font-size: 34px;
+        margin: 40px auto;
+        text-align: center;
+    }
+    
+    #Download .connect-area {
+        width: 35%;
+        margin: 0 auto 100px;
+    }
+    
+    .connect-area input {
+        border: none;
+        outline: none;
+        width: 60%;
+        height: 30px;
+        padding: 5px 25px;
+        letter-spacing: 1px;
+        border-radius: 5px 0 0 5px;
+    }
+    /* Download section end */
+    /* footer start */
+    
+    footer {
+        padding: 15px 0;
+    }
+    
+    footer li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    footer h2 {
+        letter-spacing: 3px;
+        font-size: 20px;
+        color: #23c075;
+    }
+    
+    footer .menu a {
+        font-size: 18px;
+        color: #6a7076;
+    }
+    
+    footer .menu a:hover {
+        opacity: 0.7;
+    }
+    
+    footer .social {
+        text-align: right;
+    }
+    /* footer end */
+    /* background color */
+    
+    .bg-white {
+        background-color: #ffffff;
+    }
+    
+    .bg-grey {
+        background-color: #f0f5f9;
+    }
+    
+    .bg-light-grey {
+        background-color: #f8f9fa;
+    }
