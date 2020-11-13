@@ -33,10 +33,24 @@
         margin-right: 20px;
     }
     
-    .blue-btn {
+    .btn-box a {
+        display: inline-block;
+        padding: 10px 30px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        margin-right: 20px;
+        border: 2px solid transparent;
+    }
+    
+    a.blue-btn {
         background-color: transparent;
         color: #3498db;
-        border: 2px solid #3498db;
+        border-color: #3498db;
         cursor: pointer;
     }
     
@@ -57,7 +71,7 @@
         width: 40%;
     }
     
-    #logo h1 a {
+    #logo a {
         color: #45454b;
         font-size: 17px;
         font-weight: 600;
@@ -86,10 +100,8 @@
     }
     
     #menu-btn {
-        width: 15%;
-    }
-    
-    #menu-btn div {
+        display: inline-block;
+        width: 50%;
         padding: 8px 20px;
         border: 2px solid gray;
         border-radius: 5px;
@@ -100,7 +112,7 @@
         cursor: pointer;
     }
     
-    #menu-btn div:hover {
+    #menu-btn:hover {
         background-color: #21bf73;
         color: #ffffff;
         border: none;
@@ -119,7 +131,7 @@
         font-weight: 500;
     }
     
-    .pr-top h2 {
+    .pr-top h1 {
         color: #423d3d;
         font-size: 35px;
         margin-top: 5px;
@@ -145,7 +157,7 @@
         padding: 80px 0 100px 0;
     }
     
-    .pr-bottom h3 {
+    .pr-bottom small {
         color: #21bf73;
         font-size: 14px;
         font-weight: 500;
@@ -171,7 +183,11 @@
         padding-left: 40px;
     }
     
-    .items h3 {
+    .items img {
+        width: 80px;
+    }
+    
+    .items div {
         padding: 15px 0;
         font-size: 18px;
         font-weight: 600;
@@ -188,6 +204,10 @@
     
     .features {
         padding: 80px 80px 0px 80px;
+    }
+    
+    #feat-top-img {
+        width: 350px;
     }
     
     .features h2 {
@@ -222,7 +242,7 @@
         text-align: center;
     }
     
-    .result h4 {
+    .result div {
         font-size: 14px;
         color: #3498db;
         letter-spacing: 2px;
@@ -241,9 +261,14 @@
         padding-bottom: 100px;
     }
     
-    .result-items h4 {
+    .result-items img {
+        height: 100px;
+    }
+    
+    .result-items span {
+        display: block;
         font-size: 26px;
-        padding: 5px;
+        padding: 35px;
         color: #45454b;
         margin-top: 5px;
     }
@@ -276,6 +301,10 @@
         color: #82868a;
     }
     
+    .rev-right-top img {
+        width: 50px;
+    }
+    
     .rev-right-top span {
         width: 100%;
         display: inline-block;
@@ -301,6 +330,7 @@
     }
     
     .rev-right-bottom img {
+        width: 70px;
         border-radius: 50%;
         margin-right: 20px;
     }
@@ -348,6 +378,10 @@
         text-align: center;
     }
     
+    .pricing-items img {
+        width: 130px;
+    }
+    
     .pric-left {
         border-width: 0 0 0 170px;
         border-style: solid;
@@ -360,7 +394,8 @@
         border-color: #ffffff;
     }
     
-    .pricing-items h3 {
+    .pricing-items small {
+        display: block;
         font-size: 26px;
         font-weight: bolder;
         text-transform: capitalize;
@@ -407,18 +442,18 @@
         letter-spacing: 0.8px;
     }
     
-    #FAQ h3 {
+    #FAQ div {
         font-size: 17px;
         color: #82868a;
         font-weight: 300;
     }
     
-    #FAQ h3 a {
+    #FAQ div a {
         color: #677aed;
     }
     
-    #FAQ h5 {
-        padding: 15px 40px;
+    #FAQ table div {
+        padding: 20px 40px;
         margin-right: 50px;
         font-size: 18px;
         font-weight: 300;
@@ -432,13 +467,14 @@
         margin-top: 80px;
     }
     
-    #Download h4 {
+    #Download span {
+        display: block;
         color: #21bf73;
         font-size: 16px;
         text-align: center;
     }
     
-    #Download h2 {
+    #Download div {
         width: 45%;
         font-size: 34px;
         margin: 40px auto;
@@ -466,12 +502,16 @@
         padding: 15px 0;
     }
     
+    footer td {
+        width: 33%;
+    }
+    
     footer li {
         display: inline-block;
         margin-right: 20px;
     }
     
-    footer h2 {
+    .foot-logo a {
         letter-spacing: 3px;
         font-size: 20px;
         color: #23c075;
@@ -488,6 +528,10 @@
     
     footer .social {
         text-align: right;
+    }
+    
+    footer .social img {
+        width: 25px;
     }
     /* footer end */
     /* background color */
