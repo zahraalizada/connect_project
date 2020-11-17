@@ -65,6 +65,18 @@
         border: 2px solid#21bf73;
         cursor: pointer;
     }
+    /* image box */
+    
+    .img-box {
+        overflow: hidden;
+    }
+    
+    .img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
     /* header start */
     
     #logo {
@@ -75,6 +87,11 @@
         color: #45454b;
         font-size: 17px;
         font-weight: 600;
+    }
+    
+    #img-head {
+        height: 400px;
+        width: 600px;
     }
     
     #navbar {
@@ -184,8 +201,9 @@
         padding-left: 40px;
     }
     
-    .items img {
+    #img-fluid {
         width: 80px;
+        height: 80px;
     }
     
     .items div {
@@ -207,8 +225,13 @@
         padding: 80px 80px 0px 80px;
     }
     
-    #feat-top-img {
-        width: 350px;
+    .features ul {
+        list-style-image: url(../img/tick.svg);
+    }
+    
+    #img-feat {
+        width: 370px;
+        height: 242px;
     }
     
     .features h2 {
@@ -230,12 +253,13 @@
         width: 70%;
         font-size: 18px;
         color: #6a7076;
-        margin-left: 15px;
+        margin-left: 20px;
     }
     
     .feat-bottom {
         padding-bottom: 80px;
     }
+    /* Result section */
     
     .result {
         margin: auto;
@@ -262,8 +286,10 @@
         padding-bottom: 100px;
     }
     
-    .result-items img {
-        height: 100px;
+    #img-result {
+        height: 80px;
+        width: 80px;
+        margin-left: 75px;
     }
     
     .result-items span {
@@ -302,8 +328,9 @@
         color: #82868a;
     }
     
-    .rev-right-top img {
-        width: 50px;
+    #img-reviews {
+        width: 60px;
+        height: 40px;
     }
     
     .rev-right-top span {
@@ -330,8 +357,9 @@
         margin-top: 50px;
     }
     
-    .rev-right-bottom img {
-        width: 70px;
+    #rev-bottom {
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         margin-right: 20px;
     }
@@ -379,8 +407,10 @@
         text-align: center;
     }
     
-    .pricing-items img {
-        width: 130px;
+    #pric-img {
+        width: 120px;
+        height: 120px;
+        margin: auto;
     }
     
     .pric-left {
@@ -395,7 +425,7 @@
         border-color: #ffffff;
     }
     
-    .pricing-items small {
+    .pricing-items h4 {
         display: block;
         font-size: 26px;
         font-weight: bolder;
@@ -534,6 +564,11 @@
     
     footer .social img {
         width: 25px;
+    }
+    
+    .social i {
+        color: #21bf73;
+        font-size: 20px;
     }
     /* footer end */
     /* background color */
